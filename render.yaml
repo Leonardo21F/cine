@@ -1,0 +1,6 @@
+services:
+  - type: web
+    runtime: node
+    name: mi-app-react
+    buildCommand: npm install
+    startCommand: npm start
